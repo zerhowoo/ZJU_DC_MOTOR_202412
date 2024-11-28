@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/dc_motor/dc_motor.egg-info/PKG-INFO
+../../build/dc_motor/dc_motor.egg-info/SOURCES.txt
+../../build/dc_motor/dc_motor.egg-info/dependency_links.txt
+../../build/dc_motor/dc_motor.egg-info/entry_points.txt
+../../build/dc_motor/dc_motor.egg-info/requires.txt
+../../build/dc_motor/dc_motor.egg-info/top_level.txt
+../../build/dc_motor/dc_motor.egg-info/zip-safe
+dc_motor/__init__.py
+dc_motor/dc_control_node.py
+dc_motor/dc_control_node_backup.py
+resource/dc_motor
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

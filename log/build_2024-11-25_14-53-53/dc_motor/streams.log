@@ -1,0 +1,36 @@
+[0.434s] Invoking command in '/home/cheng/DC_motor/src/dc_motor': PYTHONPATH=/home/cheng/DC_motor/build/dc_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cheng/DC_motor/install/dc_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dc_motor build --build-base /home/cheng/DC_motor/build/dc_motor/build install --record /home/cheng/DC_motor/build/dc_motor/install.log --single-version-externally-managed install_data
+[0.576s] running egg_info
+[0.576s] creating ../../build/dc_motor/dc_motor.egg-info
+[0.576s] writing ../../build/dc_motor/dc_motor.egg-info/PKG-INFO
+[0.576s] writing dependency_links to ../../build/dc_motor/dc_motor.egg-info/dependency_links.txt
+[0.576s] writing entry points to ../../build/dc_motor/dc_motor.egg-info/entry_points.txt
+[0.576s] writing requirements to ../../build/dc_motor/dc_motor.egg-info/requires.txt
+[0.576s] writing top-level names to ../../build/dc_motor/dc_motor.egg-info/top_level.txt
+[0.576s] writing manifest file '../../build/dc_motor/dc_motor.egg-info/SOURCES.txt'
+[0.577s] reading manifest file '../../build/dc_motor/dc_motor.egg-info/SOURCES.txt'
+[0.577s] writing manifest file '../../build/dc_motor/dc_motor.egg-info/SOURCES.txt'
+[0.577s] running build
+[0.577s] running build_py
+[0.577s] creating /home/cheng/DC_motor/build/dc_motor/build
+[0.578s] creating /home/cheng/DC_motor/build/dc_motor/build/lib
+[0.578s] creating /home/cheng/DC_motor/build/dc_motor/build/lib/dc_motor
+[0.578s] copying dc_motor/dc_control_node.py -> /home/cheng/DC_motor/build/dc_motor/build/lib/dc_motor
+[0.578s] copying dc_motor/__init__.py -> /home/cheng/DC_motor/build/dc_motor/build/lib/dc_motor
+[0.578s] running install
+[0.578s] running install_lib
+[0.578s] creating /home/cheng/DC_motor/install/dc_motor/lib/python3.10/site-packages/dc_motor
+[0.578s] copying /home/cheng/DC_motor/build/dc_motor/build/lib/dc_motor/dc_control_node.py -> /home/cheng/DC_motor/install/dc_motor/lib/python3.10/site-packages/dc_motor
+[0.578s] copying /home/cheng/DC_motor/build/dc_motor/build/lib/dc_motor/__init__.py -> /home/cheng/DC_motor/install/dc_motor/lib/python3.10/site-packages/dc_motor
+[0.579s] byte-compiling /home/cheng/DC_motor/install/dc_motor/lib/python3.10/site-packages/dc_motor/dc_control_node.py to dc_control_node.cpython-310.pyc
+[0.579s] byte-compiling /home/cheng/DC_motor/install/dc_motor/lib/python3.10/site-packages/dc_motor/__init__.py to __init__.cpython-310.pyc
+[0.579s] running install_data
+[0.579s] creating /home/cheng/DC_motor/install/dc_motor/share/ament_index
+[0.579s] creating /home/cheng/DC_motor/install/dc_motor/share/ament_index/resource_index
+[0.580s] creating /home/cheng/DC_motor/install/dc_motor/share/ament_index/resource_index/packages
+[0.580s] copying resource/dc_motor -> /home/cheng/DC_motor/install/dc_motor/share/ament_index/resource_index/packages
+[0.580s] copying package.xml -> /home/cheng/DC_motor/install/dc_motor/share/dc_motor
+[0.580s] running install_egg_info
+[0.581s] Copying ../../build/dc_motor/dc_motor.egg-info to /home/cheng/DC_motor/install/dc_motor/lib/python3.10/site-packages/dc_motor-0.0.0-py3.10.egg-info
+[0.581s] running install_scripts
+[0.593s] writing list of installed files to '/home/cheng/DC_motor/build/dc_motor/install.log'
+[0.607s] Invoked command in '/home/cheng/DC_motor/src/dc_motor' returned '0': PYTHONPATH=/home/cheng/DC_motor/build/dc_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cheng/DC_motor/install/dc_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dc_motor build --build-base /home/cheng/DC_motor/build/dc_motor/build install --record /home/cheng/DC_motor/build/dc_motor/install.log --single-version-externally-managed install_data
