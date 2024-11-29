@@ -1,0 +1,2 @@
+/home/cheng/DC_motor/install/dc_motor/lib/python3.10/site-packages/dc_motor/motion_control.py:25: SyntaxWarning: 'tuple' object is not callable; perhaps you missed a comma?
+  (0.0, 25.0)

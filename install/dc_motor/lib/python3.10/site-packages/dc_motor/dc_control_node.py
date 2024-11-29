@@ -51,14 +51,14 @@ class DCControlNode(Node):
         point2.positions = [500000.0]    # [500000.0, 500000.0, 500000.0, 500000.0]
         point2.velocities = [0.0]        # [0.0, 0.0, 0.0, 0.0]
         point2.accelerations = [0.0]     # [0.0, 0.0, 0.0, 0.0]
-        point2.time_from_start.sec = 11  # 经过10 秒到达 500000位置
+        point2.time_from_start.sec = 11  # 经过 10 秒到达 500000位置
         point2.time_from_start.nanosec = 0
 
         point3 = JointTrajectoryPoint()
         point3.positions = [500000.0]    # [500000.0, 500000.0, 500000.0, 500000.0]
         point3.velocities = [0.0]        # [0.0, 0.0, 0.0, 0.0]
         point3.accelerations = [0.0]     # [0.0, 0.0, 0.0, 0.0]
-        point3.time_from_start.sec = 15  # 500000 的 位置静止四秒
+        point3.time_from_start.sec = 15  # 500000 的位置静止四秒
         point3.time_from_start.nanosec = 0
 
         point4 = JointTrajectoryPoint()
