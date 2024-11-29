@@ -24,17 +24,18 @@ class DCControlNode(Node):
     def listener_callback(self, msg):
         current_time = self.get_clock().now()
         time_diff = current_time - self.last_processed_time
+        print("time_diff=",time_diff)
 
         # 仅在特定频率下处理消息
         if time_diff.nanoseconds / 1e9 >= 1.0 / self.process_frequency:
-            self.current_positions = msg.position          # 更新当前位置
+            self.current_positions = msg.position          # 更新当前位置  
             self.get_logger().info(f'Updated current positions: {self.current_positions}')
             self.last_processed_time = current_time
 
     def publish_trajectory(self):
         msg = JointTrajectory()
         msg.header.stamp = self.get_clock().now().to_msg()
-        msg.joint_names = ["joint_0"]    #["joint_0", "joint_1", "joint_2", "joint_3"]
+        msg.joint_names = ["joint_0"]    # ["joint_0", "joint_1", "joint_2", "joint_3"]
 
         point1 = JointTrajectoryPoint()
         point1.positions = self.current_positions  # 使用当前位置作为第一个点的位置
