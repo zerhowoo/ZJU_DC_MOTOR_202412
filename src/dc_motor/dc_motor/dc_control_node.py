@@ -18,13 +18,16 @@ class DCControlNode(Node):
         self.current_positions = [0.0]                                   # 初始化当前位置
 
         # 设置处理消息的频率,应该略小于 定时器频率
-        self.process_frequency = 0.04                       # 5.0 Hz 
+        self.process_frequency = 2                          # 5.0 Hz 
         self.last_processed_time = self.get_clock().now()
 
     def listener_callback(self, msg):
         current_time = self.get_clock().now()
         time_diff = current_time - self.last_processed_time
-        print("time_diff=",time_diff)
+        # print("time_diff=",time_diff)
+        # print("current_time=",current_time)
+        # print("last_processed_time=",self.last_processed_time)
+
 
         # 仅在特定频率下处理消息
         if time_diff.nanoseconds / 1e9 >= 1.0 / self.process_frequency:
