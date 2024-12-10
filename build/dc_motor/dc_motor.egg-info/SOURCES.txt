@@ -13,6 +13,9 @@ dc_motor/dc_control_node.py
 dc_motor/dc_control_node_backup.py
 dc_motor/dc_control_node_test.py
 dc_motor/motion_control.py
+dc_motor/state_control.py
+dc_motor/state_control_2slaves.py
+dc_motor/state_control_backup.py
 resource/dc_motor
 test/test_copyright.py
 test/test_flake8.py

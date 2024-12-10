@@ -1,0 +1,5 @@
+  File "/home/cheng/DC_motor/install/dc_motor/lib/python3.10/site-packages/dc_motor/state_control.py", line 42
+    if abs(self.current_position - self.target_position) < 1  # 允许微小误差
+                                                              ^^^^^^^^^^^^^^^^^^^^
+SyntaxError: expected ':'
+

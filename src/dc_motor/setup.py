@@ -19,7 +19,7 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': ['dc_motor_node = dc_motor.motion_control:main'
+        'console_scripts': ['dc_motor_node = dc_motor.state_control_2slaves:main'
         ],
     },
 )
