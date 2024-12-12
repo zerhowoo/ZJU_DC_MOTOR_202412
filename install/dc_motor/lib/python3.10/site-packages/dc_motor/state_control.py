@@ -55,12 +55,6 @@ class DCControlNode(Node):
 
         # 目标轨迹配置（时间单位为秒，位置单位为自定义单位）(next_position, next_start_time, duration)
         self.trajectory_points = trajectory_points
-        # [
-        #     (0.0, 0.0, 5.0),                 # 在位置0.0           静止 5.0 秒
-        #     (200000.0, 5.0, 8.0),            # 到位置200000.0      花了 8.0 秒
-        #     (400000.0, 18.0, 6.0),           # 在位置200000.0 静止 5.0 秒，到位置400000.0 花了 8 秒
-        #     (0.0, 30.0, 10.0),               # 在位置400000.0 静止 4.0 秒，到位置0.0 花了 10 秒
-        # ]
         self.validate_trajectory_points() 
         self.trajectory_index = 0            # 当前轨迹循环索引
     
