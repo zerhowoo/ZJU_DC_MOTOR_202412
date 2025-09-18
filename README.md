@@ -1,2 +1,2 @@
 # DC_MOTORS
-used for ROS2 node publisher
+一个DC电机ROS2节点用于发布"目标位置"
